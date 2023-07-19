@@ -1,51 +1,28 @@
 # 💫 About Me:
 🌱 I’m currently learning R3F, Spline and 3D modelling<br><br>🤝 I’m looking for help with 3D modelling and spline<br><br>👨‍💻 All of my projects are available at https://profile-card-github.web.app/<br><br>💬 Ask me about Building cutting-edge websites with React, GSAP, and Three.js—because who needs sleep, social life, or a semblance of sanity when you can obsess over pixels and semicolons? But hey, at least my GitHub commit graph looks impressive, even if my personal life suffers!<br><br>📫 How to reach me manaslaud@hotmail.com<br><br>📄 Know about my experiences https://www.linkedin.com/in/manas-laud-5183a5254/<br><br>⚡ Fun fact I do touch grass
 ```
-import React, { useEffect } from 'react';
-import * as ThreeJS from 'three';
-import { MagicWand } from 'ui-ux-spells';
-
-const ExtraordinaryDeveloper: React.FC = () => {
+import React, { useEffect, useRef } from 'react';
+import * as Three from 'three';
+const Developer: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
-    // Prepare the magical canvas
-    const canvas = document.createElement('canvas');
-    document.body.appendChild(canvas);
-    const renderer = new ThreeJS.WebGLRenderer({ canvas });
+    const renderer = new Three.WebGLRenderer({ canvas: canvasRef.current });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    const scene = new ThreeJS.Scene();
-    const camera = new ThreeJS.PerspectiveCamera(
-      75,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
+    const scene = new Three.Scene();
+    const camera = new Three.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.z = 5;
-
-    const geometry = new ThreeJS.BoxGeometry();
-    const material = new ThreeJS.MeshBasicMaterial({ color: 'skyblue' });
-    const cube = new ThreeJS.Mesh(geometry, material);
+    const cube = new Three.Mesh(new Three.BoxGeometry(), new Three.MeshBasicMaterial({ color: 'skyblue' }));
     scene.add(cube);
-    const wand = new MagicWand(cube);
-    wand.applySpell('glow');
-    wand.applySpell('rotate');
     const animate = () => {
       requestAnimationFrame(animate);
+      cube.rotation.y += 0.01;
       renderer.render(scene, camera);
     };
-
     animate();
-    return () => {
-      wand.removeSpell('glow');
-      wand.removeSpell('rotate');
-      document.body.removeChild(canvas);
-    };
   }, []);
-
-  return <div>This is where the extraordinary magic happens!</div>;
+  return <canvas ref={canvasRef} />;
 };
-
-export default ExtraordinaryDeveloper;
-
+export default Developer;
 ```
 
 ## 🌐 Socials:
