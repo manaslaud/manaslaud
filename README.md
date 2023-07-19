@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 🏋️ About Me:
 🌱 I’m currently learning R3F, Spline and 3D modelling<br><br>🤝 I’m looking for help with 3D modelling and spline<br><br>👨‍💻 All of my projects are available at https://profile-card-github.web.app/<br><br>💬 Ask me about Building cutting-edge websites with React, GSAP, and Three.js—because who needs sleep, social life, or a semblance of sanity when you can obsess over pixels and semicolons? But hey, at least my GitHub commit graph looks impressive, even if my personal life suffers!<br><br>📫 How to reach me manaslaud@hotmail.com<br><br>📄 Know about my experiences https://www.linkedin.com/in/manas-laud-5183a5254/<br><br>⚡ Fun fact I do touch grass
 ```javascript
 import React, { useEffect, useRef } from 'react';
