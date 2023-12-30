@@ -36,11 +36,6 @@ export default Developer;
 ![](https://github-readme-streak-stats.herokuapp.com/?user=manaslaud&theme=vue-dark&hide_border=false)<br/>
 
 
-
- 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manaslaud&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-
-
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
