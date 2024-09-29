@@ -1,4 +1,4 @@
-## Currently working on developing figma plugins and exploring the world of blockchain,three.js and web development.
+Hello! I'm MAnas, a 3rd year Computer Science Major who loves building cool stuff on chain, mostly related to DeFI and cryptography (also the chain itself)
 Portfolio: (https://planefolio-2-0.vercel.app/)
 ## 🌐 Socials:
 [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/manaslaud) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/manaslaud) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/manaslaud) 
