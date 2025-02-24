@@ -76,15 +76,9 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
 
 ###
 
-<div align="left">
-  <img src="https://streak-stats.demolab.com?user=manaslaud&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-  <img align="right" height="200" src="https://i.imgflip.com/65efzo.gif"  />
-
-</div>
 
 ###
 
