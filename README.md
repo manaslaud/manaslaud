@@ -24,7 +24,7 @@
 
 ###
 
-<h6 align="left">- 🔭 I’m working as an sde @ToucanLabs, prev @OneHash</h6>
+<h6 align="left">- 🔭 I’m working as a fullstack engg @Luganodes, prev @OneHash & @ToucanLabs</h6>
 <h6 align="left">- 👨‍💻 I love building & learning about decentralised systems</h6>
 <h6 align="left">- 🛜 I keep learning about system design, cryptography & quantum computing</h6>
 <h6 align="left">- 🤖 I have a knack for all things web3</h6>
